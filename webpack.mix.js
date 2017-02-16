@@ -11,7 +11,7 @@ const { mix } = require('laravel-mix');
  |
  */
 
-mix.js('src/js/app.js', 'build/js')
-   .sass('src/scss/app.scss', 'build/css')
-   .copy('src/app.html', 'build/index.html')
+mix.js('src/js/app.js', 'public/js')
+   .sass('src/scss/app.scss', 'public/css')
+   .copy('src/app.html', 'public/index.html')
    .sourceMaps();

@@ -1,3 +1,4 @@
 min-manifest.json
 build/
 node_modules/
+*~
