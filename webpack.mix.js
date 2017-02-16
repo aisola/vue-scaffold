@@ -15,3 +15,5 @@ mix.js('src/js/app.js', 'public/js')
    .sass('src/scss/app.scss', 'public/css')
    .copy('src/app.html', 'public/index.html')
    .sourceMaps();
+
+mix.disableNotifications();
