@@ -1,4 +1,4 @@
-min-manifest.json
-build/
+mix-manifest.json
+public/
 node_modules/
 *~
